@@ -1,4 +1,4 @@
-# arXiv Keyword Finder Chrome Extension
+# arXiv Paper Finder Chrome Extension
 
 ## Overview
 
