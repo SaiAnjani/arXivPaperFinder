@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>arXiv Keyword Finder</title>
+  <style>
+    body { width: 400px; padding: 10px; font-family: Arial, sans-serif; }
+    #keywordSets { margin-bottom: 10px; }
+    .keywordSet { margin-bottom: 5px; }
+    #articleList { max-height: 400px; overflow-y: auto; }
+    .article { margin-bottom: 10px; padding: 5px; border-bottom: 1px solid #ccc; }
+    .title { font-weight: bold; }
+    .authors { font-style: italic; }
+    .abstract { font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h2>arXiv Keyword Finder</h2>
+  <div id="keywordSets">
+    <div class="keywordSet">
+      <input type="text" class="keywordInput" placeholder="Enter keywords (comma-separated)">
+      <button class="removeSet">Remove</button>
+    </div>
+  </div>
+  <button id="addKeywordSet">Add Keyword Set</button>
+  <button id="fetchArticles">Fetch Articles</button>
+  <div id="articleList"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

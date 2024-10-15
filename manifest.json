@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "arXiv Keyword Finder",
+  "version": "1.0",
+  "description": "Retrieve recent arXiv articles based on user-defined keywords",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
