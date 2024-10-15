@@ -63,4 +63,4 @@ To modify or extend the extension:
 
 ## License
 
-[Add your chosen license here]
+[NOT APPLICABLE]
