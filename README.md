@@ -60,6 +60,7 @@ To modify or extend the extension:
 - Add options for sorting and filtering results
 - Integrate with other academic databases or search engines
 - Implement a more advanced search query builder
+- Provide input of last X days
 
 ## License
 
